@@ -1,0 +1,72 @@
+body
+{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: thick;
+}
+.grayButton
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 100px;
+    left: 20%;
+    background-color: gray;
+    color: white;
+    font-size: 40px;
+    border: none;
+    padding: 80px;
+}
+.greenButton
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 100px;
+    left: 40%;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    border: none;
+    padding: 80px;
+}
+.purpleButton
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 100px;
+    left: 60%;
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+    border: none;
+    padding: 80px;
+}
+.minusButton
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 350px;
+    left: 40%;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    border: none;
+    padding: 20px;
+}
+.plusButton
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 350px;
+    left: 51%;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    border: none;
+    padding: 20px;
+}
