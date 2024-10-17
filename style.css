@@ -76,7 +76,7 @@ body
     justify-content: space-evenly;
     position: fixed;
     top: 450px;
-    left: 44.6%;
+    left: 44.66%;
     background-color: white;
     color: black;
     font-size: 30px;
@@ -88,9 +88,7 @@ body
     display: flex;
     position: fixed;
     top: 380px;
-    left: 45.5%;
-    background-color: white;
+    left: 46%;
     color: gray;
     font-size: 30px;
-    padding: 5px;
 }

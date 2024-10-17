@@ -11,12 +11,12 @@ function makePurple()
 {
     numberColor.style.color = "purple";
 }
-const numberValue = 0;
+var numberValue = 0;
 function minusOne()
 {
-    document.getElementById("currNumber").innerHTML = numberValue-1;
+    numberValue = document.getElementById("currNumber").innerHTML = numberValue-1;
 }
 function plusOne()
 {
-    document.getElementById("currNumber").innerHTML = numberValue+1;
+    numberValue = document.getElementById("currNumber").innerHTML = numberValue+1;
 }
