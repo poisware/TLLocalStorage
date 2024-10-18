@@ -20,3 +20,10 @@ function plusOne()
 {
     numberValue = document.getElementById("currNumber").innerHTML = numberValue+1;
 }
+function save()
+{
+    var savedValues = [];
+    savedValues.push(numberValue);
+    var old = JSON.stringify(savedValues.get(savedValues.length()));
+    JSON.parse(old);
+}
